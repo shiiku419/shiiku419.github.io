@@ -3,12 +3,7 @@
 # General Site Settings
 
 title: Shota Shiiku
-logo:
 author: shiiku419
-description: 
-email: shiiku419@gmail.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by Shota Shiiku
 
 menu:
@@ -35,7 +30,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> SHOTA <br> 
+  hero-title: Hi! I’m <br> Shota Shiiku <br> 
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -55,29 +50,24 @@ blurb-btn-name: know more
 
 # About Page
 
-# Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-  - { name: Web App, color: "#fdb157", value: "80%" }
-  - { name: Machine Learning, color: "#9473e6", value: "60%" }
-  - { name: , color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { tag: github/github-original-wordmark.svg }
+  - { tag: docker/docker-plain-wordmark.svg }
+  - { tag: gitlab/gitlab-original-wordmark.svg }
+  - { tag: html5/html5-original-wordmark.svg }
+  - { tag: css3/css3-original-wordmark.svg }
+  - { tag: javascript/javascript-original.svg }
+  - { tag: linux/linux-original.svg }
+  - { tag: ruby/ruby-original-wordmark.svg }
+  - { tag: tensorflow/tensorflow-original.svg }
+  - { tag: python/python-original-wordmark.svg }
+  - { tag: react/react-original-wordmark.svg }
+  - { tag: pytorch/pytorch-original.svg }
+
 
 #-------------------------------
 # Exprerience Section

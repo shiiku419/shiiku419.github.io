@@ -1,7 +1,7 @@
 /* skills */
 .progress-wrapper {
-  height: 130px;
-  overflow: hidden;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .wave {
@@ -44,6 +44,30 @@
 }
 
 /* /skills */
+@media screen and (min-width: 1080px) {
+  .skills{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+    grid-auto-rows: auto;
+    height: auto
+  }
+.skills img {
+  height: 150px;
+  width: 150px;
+}
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+}
 
 /* education */
 .edu-bg-image {
