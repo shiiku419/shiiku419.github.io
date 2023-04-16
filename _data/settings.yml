@@ -4,12 +4,12 @@
 
 title: Shota Shiiku
 author: shiiku419
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by Shota Shiiku
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Shota Shiiku](https://github.com/shiiku419)
 
 menu:
   - { name: About, link: "/about" }
   - { name: Publications, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
+#  - { name: Portfolio, link: "/portfolio" }
 
 #-------------------------------
 # Google Analytics Section
@@ -31,7 +31,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: Hi! I’m <br> Shota Shiiku <br> 
-
+  hero-subtitle: I am a first-year student at the Graduate School of Integrated Science and Technology, Faculty of Informatics, Shizuoka University
 social:
   - { icon: "ti-facebook", link: "#" }
   - { icon: "ti-instagram", link: "#" }
@@ -42,7 +42,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Shota Shiiku was born in 2000 and is currently enrolled in the Information Science program at Shizuoka University Graduate School of Science and Technology. He is a member of the Takeuchi Lab., where his primary research focuses on simulating group decision-making processes using reinforcement learning. In addition to his academic pursuits, Shota enjoys following the NBA and playing basketball.
+blurb: Shota Shiiku was born in 2000 and is currently pursuing his graduate studies in the Graduate School of Integrated Science and Technology at Shizuoka University. He is a member of the Takeuchi Lab., where his primary research focuses on simulating group decision-making processes using reinforcement learning. In addition to his academic pursuits, Shota enjoys following the NBA and playing basketball.
 
 
 blurb-btn-link: "/about"

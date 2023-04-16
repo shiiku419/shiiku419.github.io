@@ -6,7 +6,7 @@ image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-He was born in 2000 and is currently enrolled in the Information Science program at Shizuoka University Graduate School of Science and Technology. 
+Shota Shiiku was born in 2000 and is currently pursuing his graduate studies in the Graduate School of Integrated Science and Technology at Shizuoka University.
 
 He is a member of the [Takeuchi Lab.](http://cog.cs.inf.shizuoka.ac.jp/), where his primary research focuses on simulating group decision-making processes using reinforcement learning. 
 
