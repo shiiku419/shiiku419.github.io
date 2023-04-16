@@ -1,0 +1,127 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: Shota Shiiku
+logo:
+author: shiiku419
+description: 
+email: shiiku419@gmail.com
+phone: +880 2544 658 256
+address: 125/A, CA Commercial Area, California, USA
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by Shota Shiiku
+
+menu:
+  - { name: About, link: "/about" }
+  - { name: Publications, link: "/blog" }
+  - { name: Portfolio, link: "/portfolio" }
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> SHOTA <br> 
+
+social:
+  - { icon: "ti-facebook", link: "#" }
+  - { icon: "ti-instagram", link: "#" }
+  - { icon: "ti-dribbble", link: "#" }
+  - { icon: "ti-twitter", link: "#" }
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: Shota Shiiku was born in 2000 and is currently enrolled in the Information Science program at Shizuoka University Graduate School of Science and Technology. He is a member of the Takeuchi Lab., where his primary research focuses on simulating group decision-making processes using reinforcement learning. In addition to his academic pursuits, Shota enjoys following the NBA and playing basketball.
+
+
+blurb-btn-link: "/about"
+blurb-btn-name: know more
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title: "Research and Plan"
+    icon: "assets/images/icons/plan.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title: "Design and Develop"
+    icon: "assets/images/icons/design.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title: "Deliver"
+    icon: "assets/images/icons/print.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: Web App, color: "#fdb157", value: "80%" }
+  - { name: Machine Learning, color: "#9473e6", value: "60%" }
+  - { name: , color: "#bdecf6", value: "80%" }
+  - { name: Web App, color: "#ffbcaa", value: "70%" }
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+  - {
+      name: Intern/Enginner,
+      icon: "icon-1.png",
+      date: "July 2021 - now ",
+      organization: "Metadata Inc.",
+    }
+
+#-------------------------------
+# Certifications Section
+
+certifications-title: Certifications
+certifications:
+  - {
+      name: Tensorflow Developer Certificate,
+      icon: "certificate-1.pdf",
+      date: "2022",
+    }
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+  - {
+      name: Master of Informatics,
+      icon: tf,
+      date: "*expected in 2025",
+      organization: "Shizuoka University",
+    }
+  - {
+      name: Bachelor of Informatics,
+      date: "2023",
+      organization: "Shizuoka University",
+    }
+  - {
+      name: High School Certificate,
+      date: "2019",
+      organization: "Yokkaichi Senior High School",
+    }
+
