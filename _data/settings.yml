@@ -33,10 +33,10 @@ hero:
   hero-title: Hi! I’m <br> Shota Shiiku <br> 
   hero-subtitle: I am a first-year student at the Graduate School of Integrated Science and Technology, Faculty of Informatics, Shizuoka University
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  #- { icon: "ti-facebook", link: "#" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/shiiku_4193/" }
+  #- { icon: "ti-dribbble", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/shiiku419" }
 
 #-------------------------------
 # About (Section and Page)
