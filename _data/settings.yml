@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Shota Shiiku
+title: 椎久 翔太
 author: shiiku419
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Shota Shiiku](https://github.com/shiiku419)
 
@@ -31,7 +31,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: Hi! I’m <br> Shota Shiiku <br> 
-  hero-subtitle: I am a first-year student at the Graduate School of Integrated Science and Technology, Faculty of Informatics, Shizuoka University
+  hero-subtitle: 静岡大学で情報学専攻の修士1年生
 social:
   #- { icon: "ti-facebook", link: "#" }
   - { icon: "ti-instagram", link: "https://www.instagram.com/shiiku_4193/" }
