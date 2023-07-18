@@ -77,9 +77,21 @@ experience:
   - {
       name: Intern/Enginner,
       icon: "icon-1.png",
-      date: "July 2021 - now ",
+      date: "Jul 2021 - now ",
       organization: "Metadata Inc.",
     }
+  - {
+    name: Intern/Enginner,
+    icon: "icon-2.png",
+    date: "Jul 2023",
+    organization: "SanSan",
+  }
+  - {
+    name: Intern/Enginner,
+    icon: "icon-3.png",
+    date: "Oct 2023",
+    organization: "CyberAgent",
+  }
 
 #-------------------------------
 # Certifications Section
