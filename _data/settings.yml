@@ -86,12 +86,13 @@ experience:
     date: "Jul 2023",
     organization: "SanSan",
   }
-  - {
-    name: Intern/Enginner,
-    icon: "icon-3.png",
-    date: "Oct 2023",
-    organization: "CyberAgent",
-  }
+
+  #- {
+   # name: Intern/Enginner,
+    #icon: "icon-3.png",
+    #date: "Oct 2023",
+    #organization: "CyberAgent",
+  #}
 
 #-------------------------------
 # Certifications Section
