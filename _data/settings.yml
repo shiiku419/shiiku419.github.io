@@ -81,11 +81,11 @@ experience:
       organization: "Metadata Inc.",
     }
   - {
-    name: Intern/Enginner,
-    icon: "icon-2.png",
-    date: "Jul 2023",
-    organization: "SanSan",
-  }
+      name: Intern/Enginner,
+      icon: "icon-2.png",
+      date: "Jul 2023",
+      organization: "Sansan",
+    }
 
   #- {
    # name: Intern/Enginner,
