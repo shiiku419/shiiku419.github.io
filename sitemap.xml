@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-<loc>http://localhost:4000/about.html</loc>
+  <loc>https://shiiku419.github.io/</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-10-01T16:23:26+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-<loc>http://localhost:4000/blog.html</loc>
+  <loc>https://shiiku419.github.io/about</loc>
+  <priority>0.8</priority>
+  <lastmod>2023-10-01T16:23:26+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+  <loc>https://shiiku419.github.io/blog</loc>
+  <priority>0.8</priority>
+  <lastmod>2023-10-01T16:23:26+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
-<url>
-<loc>http://localhost:4000/portfolio.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/assets/images/certifications/certificate-1.pdf</loc>
-<lastmod>2023-04-16T15:13:48+09:00</lastmod>
-</url>
+
 </urlset>
