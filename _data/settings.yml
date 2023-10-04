@@ -30,21 +30,23 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Shota Shiiku <br> 
-  hero-subtitle: Graduate Student at Shizuoka University 
+  hero-title: Hi! I’m <br> Shota Shiiku <br>
+  hero-subtitle: Graduate Student at Shizuoka University
 social:
   #- { icon: "ti-facebook", link: "#" }
   - { icon: "ti-instagram", link: "https://www.instagram.com/shiiku_4193/" }
   #- { icon: "ti-dribbble", link: "#" }
   - { icon: "ti-github", link: "https://github.com/shiiku419" }
-  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/%E7%BF%94%E5%A4%AA-%E6%A4%8E%E4%B9%85-95b126283/?originalSubdomain=jp" }
+  - {
+      icon: "ti-linkedin",
+      link: "https://www.linkedin.com/in/%E7%BF%94%E5%A4%AA-%E6%A4%8E%E4%B9%85-95b126283/?originalSubdomain=jp",
+    }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: I was born in 2000 and am currently pursuing my graduate studies in the Graduate School at Shizuoka University. I am a member of the Takeuchi Lab., where my primary research focuses on simulating group decision-making processes using reinforcement learning. In addition to my academic pursuits, I enjoy following the NBA and playing basketball.
-
+blurb: I was born in 2000 and am currently pursuing my graduate studies at the Graduate School of Shizuoka University. I am a member of the Takeuchi Lab, where my primary research focuses on simulating group decision-making processes using reinforcement learning. In addition to my academic pursuits, I enjoy following the NBA and playing basketball.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -69,7 +71,6 @@ skills:
   - { tag: react/react-original-wordmark.svg }
   - { tag: pytorch/pytorch-original.svg }
 
-
 #-------------------------------
 # Exprerience Section
 
@@ -89,10 +90,10 @@ experience:
     }
 
   #- {
-   # name: Intern/Enginner,
-    #icon: "icon-3.png",
-    #date: "Oct 2023",
-    #organization: "CyberAgent",
+  # name: Intern/Enginner,
+  #icon: "icon-3.png",
+  #date: "Oct 2023",
+  #organization: "CyberAgent",
   #}
 
 #-------------------------------
@@ -105,7 +106,6 @@ certifications:
       icon: "certificate-1.pdf",
       date: "2022",
     }
-
 
 #-------------------------------
 # Education Section
@@ -128,4 +128,3 @@ education:
       date: "2019",
       organization: "Yokkaichi Senior High School",
     }
-
