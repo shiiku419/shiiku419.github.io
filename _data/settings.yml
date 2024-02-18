@@ -88,6 +88,12 @@ experience:
       date: "Jul 2023",
       organization: "Sansan",
     }
+  - {
+      name: Intern/Enginner,
+      icon: "icon-3.png",
+      date: "Feb 2024",
+      organization: "ExaWizards",
+    }
 
   #- {
   # name: Intern/Enginner,
@@ -117,6 +123,11 @@ education:
       icon: tf,
       date: "*expected in 2025",
       organization: "Shizuoka University",
+    }
+  - {
+      name: visiting scholar,
+      date: "April to Jult 2024",
+      organization: "Max Plunk Insututute for Empirical Aesthetics", 
     }
   - {
       name: Bachelor of Informatics,
