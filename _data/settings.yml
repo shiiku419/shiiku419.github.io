@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Shota Shiiku
+title: 椎久翔太（しいくしょうた）
 author: shiiku419
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Shota Shiiku](https://github.com/shiiku419)
 
@@ -70,6 +70,7 @@ skills:
   - { tag: python/python-original-wordmark.svg }
   - { tag: react/react-original-wordmark.svg }
   - { tag: pytorch/pytorch-original.svg }
+  - { tag: kotlin/kotlin-original-wordmark.svg }
 
 #-------------------------------
 # Exprerience Section
