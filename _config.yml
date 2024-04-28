@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Shota Shiiku  # the website title (if blank, full name will be used instead)
+title: Shota Shiiku | 椎久翔太  # the website title (if blank, full name will be used instead)
 first_name: Shota
-middle_name: Shiiku |
-last_name: 椎久翔太
+middle_name: # your middle name or initial
+last_name: Shiiku
 email: shiiku.shota.19@shizuoka.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a Master's student at [Shizuoka University](https://www.shizuoka.ac.jp/) and a Guest Researcher at the [Max Planck Institute for Empirical Aesthetics](https://www.aesthetics.mpg.de/).
+  I am a Master's student at Shizuoka University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
