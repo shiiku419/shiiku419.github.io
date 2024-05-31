@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 Paper "Reducing Discomfort by Integrating Unpleasant Environmental Sounds with Cognitive
-Sound Control" accepted by [Inter-Noise 2024](https://internoise2024.org/)
+Sound Control" is accepted by [Inter-Noise 2024](https://internoise2024.org/)
