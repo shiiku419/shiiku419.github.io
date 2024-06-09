@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Start Guest Researcher at the [Max Planck Institute for Empirical Aesthetics](https://www.aesthetics.mpg.de/) in Frunkfurt.
+Start Research Intern at the [Max Planck Institute for Empirical Aesthetics](https://www.aesthetics.mpg.de/) in Frunkfurt.
