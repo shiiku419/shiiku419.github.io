@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Shota Shiiku",
-    "label": "Master's Student",
+    "label": "Master Student",
     "image": "",
     "email": "shiiku.shota.19 [at] shizuoka.ac.jp",
     "phone": "",
@@ -10,7 +10,7 @@
   "work": [
     {
       "name": "Metadata Inc.",
-      "position": "Full Stack Engineer Intern",
+      "position": "Software Engineer Intern",
       "startDate": "2022-07",
       "endDate": "2025-03",
       "summary": "Long-term internship"
@@ -21,14 +21,14 @@
       "url": "https://example.com",
       "startDate": "2024-01",
       "endDate": "2024-01",
-      "summary": "Software Engineer 2 week Intern"
+      "summary": "2 weeks Intern"
     },
     {
       "name": "SanSan Inc.",
       "position": "Backend Intern",
       "startDate": "2023-07",
       "endDate": "2023-07",
-      "summary": "Ruby 1 Day Internship"
+      "summary": "1 Day Intern"
     }
   ],
   "education": [
@@ -58,7 +58,7 @@
       "courses": ["Department of Socio-Information Studies"]
     },
     {
-      "institution": "Yokkaichi Hihg School",
+      "institution": "Yokkaichi High School",
       "location": "Mie, Japan",
       "startDate": "2016",
       "endDate": "2019"
@@ -88,7 +88,8 @@
         "Python",
         "React",
         "PyTorch",
-        "Kotlin"
+        "Kotlin",
+        "Flutter"
       ]
     }
   ],
@@ -104,15 +105,14 @@
       "icon": ""
     }
   ],
-  "interests": [
+  "Research Area": [
     {
       "name": "Cognitive Science",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Decision Making",
-        "Large Language Models",
+        "Large Language Model",
         "Reinforcement Learning",
-        "Ethics",
         "Social Network"
       ]
     }
