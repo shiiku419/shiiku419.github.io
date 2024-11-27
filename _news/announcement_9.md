@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Oral presentation at The Twelfth International Conference on Human-Agent Interaction (HAI 2024). The title is "Exploring the Mutual Adaptation of Large Language Models and Emergent Decision-Making in Simulated Small Group Interactions".
+Oral presentation at The 12th International Conference on Human-Agent Interaction (HAI 2024). The title is "Exploring the Mutual Adaptation of Large Language Models and Emergent Decision-Making in Simulated Small Group Interactions".
