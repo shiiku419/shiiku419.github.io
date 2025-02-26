@@ -13,6 +13,9 @@ nav_order: 2
 国際発表
 {% bibliography --file papers %}
 
+プレプリント
+{% bibliography --file preprint %}
+
 国内発表
 {% bibliography --file japan %}
 
