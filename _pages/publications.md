@@ -22,7 +22,7 @@ nav_order: 2
 研究助成
 {% bibliography --file grant %}
 
-研究会
+成果発表
 {% bibliography --file workshop %}
 
 </div>
