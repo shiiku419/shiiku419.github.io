@@ -22,10 +22,10 @@ nav_order: 2
 学位論文
 {% bibliography --file dissertation %}
 
+その他発表
+{% bibliography --file workshop %}
+
 研究助成
 {% bibliography --file grant %}
-
-成果発表
-{% bibliography --file workshop %}
 
 </div>
