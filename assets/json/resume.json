@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Shota Shiiku",
-    "label": "Master Student",
+    "label": "PhD Student",
     "image": "",
     "email": "shiiku.shota.19 [at] shizuoka.ac.jp",
     "phone": "",
@@ -9,29 +9,21 @@
   },
   "work": [
     {
-      "name": "Metadata Inc.",
-      "position": "Software Engineer Intern",
-      "startDate": "2022-07",
-      "endDate": "2025-03",
-      "summary": "Long-term internship"
-    },
-    {
       "name": "Exawizards Inc.",
-      "position": "Software Engineer Intern",
-      "url": "https://example.com",
-      "startDate": "2024-01",
-      "endDate": "2024-01",
-      "summary": "2 weeks Intern"
+      "position": "Software Engineer",
+      "startDate": "2025-04",
+      "summary": "Tech Lead of HR/LLM product"
     },
-    {
-      "name": "SanSan Inc.",
-      "position": "Backend Intern",
-      "startDate": "2023-07",
-      "endDate": "2023-07",
-      "summary": "1 Day Intern"
-    }
   ],
   "education": [
+    {
+      "institution": "Shizuoka University",
+      "location": "Shizuoka, Japan",
+      "area": "Conginitve Science",
+      "studyType": "Doctor",
+      "startDate": "2025-04",
+      "courses": ["Computer Science"]
+    },
     {
       "institution": "Max Planck Institute for Empirical Aesthetics",
       "location": "Frunkfurt, Germany",
@@ -77,12 +69,9 @@
       "name": "Software Engineering",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "GitHub",
         "Docker",
-        "GitLab",
         "HTML/CSS3",
         "JavaScript",
-        "Linux",
         "Ruby",
         "TensorFlow",
         "Python",

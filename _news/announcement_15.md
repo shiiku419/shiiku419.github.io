@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Poster presentation at CogSci 2025. The title is "The Dynamics of Collective Creativity in Human-AI Social Networks".
+Poster presentation at [CogSci 2025](https://cognitivesciencesocietyorg/cogsci-2025/). The title is "The Dynamics of Collective Creativity in Human-AI Hybrid Societies".
