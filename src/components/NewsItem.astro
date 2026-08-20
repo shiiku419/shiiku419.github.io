@@ -1,0 +1,29 @@
+---
+import type { NewsItem as NewsItemType } from "../data/news";
+
+interface Props {
+  item: NewsItemType;
+}
+
+const { item } = Astro.props;
+const formatted = new Date(item.date).toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "short",
+  day: "numeric"
+});
+---
+
+<li class="flex gap-4 border-b border-[var(--border)] py-4 last:border-b-0">
+  <time datetime={item.date} class="w-24 shrink-0 text-sm text-[var(--text-muted)]">{formatted}</time>
+  <p class="text-sm leading-relaxed">
+    {item.body}
+    {item.link && (
+      <>
+        {" "}
+        <a class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline" href={item.link.url} target="_blank" rel="noopener noreferrer">
+          {item.link.text}
+        </a>
+      </>
+    )}
+  </p>
+</li>

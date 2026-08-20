@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource/noto-sans-jp/400.css";
+@import "@fontsource/noto-sans-jp/500.css";
+@import "@fontsource/noto-sans-jp/700.css";
+
+:root {
+  --bg: #faf9f6;
+  --bg-elevated: #ffffff;
+  --text: #1f2320;
+  --text-muted: #5b6560;
+  --border: #e4e2da;
+
+  --accent-sage: #6b8f71;
+  --accent-sage-deep: #46654c;
+  --accent-violet: #7c6fc9;
+  --accent-violet-deep: #574a9c;
+  --accent-amber: #c68a3f;
+
+  --shadow: 0 1px 2px rgba(31, 35, 32, 0.06), 0 4px 12px rgba(31, 35, 32, 0.05);
+}
+
+:root[data-theme="dark"] {
+  --bg: #14171a;
+  --bg-elevated: #1b1f23;
+  --text: #eceeec;
+  --text-muted: #a3aba6;
+  --border: #2b3036;
+
+  --accent-sage: #8fbf95;
+  --accent-sage-deep: #b6dcb9;
+  --accent-violet: #9c90e6;
+  --accent-violet-deep: #c3b9f5;
+  --accent-amber: #e0ab63;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14171a;
+    --bg-elevated: #1b1f23;
+    --text: #eceeec;
+    --text-muted: #a3aba6;
+    --border: #2b3036;
+
+    --accent-sage: #8fbf95;
+    --accent-sage-deep: #b6dcb9;
+    --accent-violet: #9c90e6;
+    --accent-violet-deep: #c3b9f5;
+    --accent-amber: #e0ab63;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.35);
+  }
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: "Inter Variable", "Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

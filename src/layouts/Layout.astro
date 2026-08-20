@@ -1,0 +1,62 @@
+---
+import Sidebar from "../components/Sidebar.astro";
+import SocialNetworkCanvas from "../components/react/SocialNetworkCanvas";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Shota Shiiku 椎久翔太 — cognitive-science researcher and software engineer working on decision-making, social cognition, and large language models."
+} = Astro.props;
+
+const pageTitle = `${title} · Shota Shiiku`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL("/prof_pic.jpg", Astro.site).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/icon.png" />
+    <link rel="canonical" href={canonicalURL} />
+
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          if (stored === "dark" || stored === "light") {
+            document.documentElement.setAttribute("data-theme", stored);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen bg-[var(--bg)] text-[var(--text)]">
+    <SocialNetworkCanvas client:idle />
+    <div class="relative z-10 flex min-h-screen flex-col md:flex-row">
+      <Sidebar />
+      <main class="flex-1 pb-20 md:pb-0">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

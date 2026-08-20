@@ -1,0 +1,65 @@
+---
+import type { Publication } from "../data/publications";
+
+interface Props {
+  publication: Publication;
+}
+
+const { publication } = Astro.props;
+
+function isAuthor(name: string) {
+  const n = name.trim();
+  return n === "Shota Shiiku" || n === "椎久翔太" || n === "椎久 翔太";
+}
+---
+
+<p class="text-[15px] leading-relaxed">
+  {
+    publication.authors.map((author, i) => (
+      <>
+        {i > 0 && ", "}
+        {isAuthor(author) ? <strong>{author}</strong> : <span class="text-[var(--text-muted)]">{author}</span>}
+      </>
+    ))
+  }
+  {publication.authors.length > 0 && ". "}
+  <span class="font-medium">{publication.title}.</span>
+  {publication.venue && <em class="text-[var(--text-muted)]"> {publication.venue}</em>}
+  <span class="text-[var(--text-muted)]">, {publication.year}.</span>
+  {
+    (publication.links.doi || publication.links.url || publication.links.pdf) && (
+      <span class="ml-1 whitespace-nowrap text-sm">
+        {publication.links.doi && (
+          <a
+            class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline"
+            href={publication.links.doi}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [DOI]
+          </a>
+        )}
+        {publication.links.url && (
+          <a
+            class="ml-1.5 text-[var(--accent-violet-deep)] underline-offset-2 hover:underline"
+            href={publication.links.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [Link]
+          </a>
+        )}
+        {publication.links.pdf && (
+          <a
+            class="ml-1.5 text-[var(--accent-violet-deep)] underline-offset-2 hover:underline"
+            href={publication.links.pdf}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [PDF]
+          </a>
+        )}
+      </span>
+    )
+  }
+</p>
