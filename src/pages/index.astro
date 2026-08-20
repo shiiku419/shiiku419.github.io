@@ -1,0 +1,87 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import NewsItem from "../components/NewsItem.astro";
+import { news } from "../data/news";
+
+const recentNews = news.slice(0, 4);
+
+const socials = [
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/shotashiiku" },
+  { label: "Email", url: "mailto:shiiku.shota.19@shizuoka.ac.jp" }
+];
+---
+
+<Layout title="Home">
+  <section class="mx-auto max-w-5xl px-6 pb-16 pt-12 sm:pt-16">
+    <div class="max-w-xl">
+      <div class="flex items-center gap-5">
+        <img
+          src="/prof_pic.jpg"
+          alt="Portrait of Shota Shiiku"
+          width="112"
+          height="112"
+          class="h-24 w-24 shrink-0 rounded-2xl object-cover shadow-[var(--shadow)] sm:h-28 sm:w-28"
+        />
+        <div>
+          <h1 class="text-3xl font-semibold leading-tight sm:text-4xl">
+            Shota Shiiku
+          </h1>
+          <p class="mt-1 text-base text-[var(--text-muted)] sm:text-lg">椎久翔太</p>
+        </div>
+      </div>
+      <p class="mt-5 text-[var(--text-muted)]">
+        Software Engineer at ExaWizards and PhD student at Shizuoka University, researching how people form
+        decisions and mental representations — and how creativity emerges when people and AI shape each other.
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a
+          href="/publications/"
+          class="rounded-full px-4 py-2 text-sm font-medium text-white transition-transform hover:scale-105"
+          style="background: var(--accent-sage);"
+        >
+          See publications
+        </a>
+        {
+          socials.map((s) => (
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-full border border-[var(--border)] px-4 py-2 text-sm font-medium hover:bg-[var(--bg-elevated)]"
+            >
+              {s.label}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="mx-auto max-w-5xl scroll-mt-8 px-6 pb-16">
+    <SectionHeading eyebrow="About" title="Background" />
+    <div class="max-w-3xl text-[15px] leading-relaxed">
+        <p>
+          I am a Software Engineer at <a class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline" href="https://exawizards.com/" target="_blank" rel="noopener noreferrer">ExaWizards Inc.</a> and a PhD student at <a class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline" href="https://www.shizuoka.ac.jp/" target="_blank" rel="noopener noreferrer">Shizuoka University</a>, where I am part of the <a class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline" href="http://cog.cs.inf.shizuoka.ac.jp/recreation.html" target="_blank" rel="noopener noreferrer">Cognitive Communication Laboratory</a>. I also work with <a class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline" href="https://www.norijacoby.com/" target="_blank" rel="noopener noreferrer">Nori Jacoby</a> at the <a class="text-[var(--accent-violet-deep)] underline-offset-2 hover:underline" href="https://cococo-lab.cornell.edu/" target="_blank" rel="noopener noreferrer">CoCoCo Lab</a>, Cornell University, on human–AI collective creativity.
+        </p>
+        <p class="mt-4">
+          My research focuses on the cognitive science underlying human decision-making and mental representations,
+          and how such representations emerge through social interaction. I am particularly interested in
+          human–AI interaction, and in how collective creativity emerges when people and AI agents shape each
+          other within hybrid societies.
+        </p>
+        </div>
+  </section>
+
+  <section class="mx-auto max-w-5xl px-6 pb-20">
+    <div class="flex items-center justify-between">
+      <SectionHeading eyebrow="Latest" title="News" />
+      <a href="/news/" class="text-sm font-medium text-[var(--accent-violet-deep)] underline-offset-2 hover:underline">
+        View all →
+      </a>
+    </div>
+    <ul>
+      {recentNews.map((item) => <NewsItem item={item} />)}
+    </ul>
+  </section>
+</Layout>

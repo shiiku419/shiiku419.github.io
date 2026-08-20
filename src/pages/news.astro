@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import NewsItem from "../components/NewsItem.astro";
+import { news } from "../data/news";
+---
+
+<Layout title="News" description="News and announcements from Shota Shiiku — talks, publications, and awards.">
+  <section class="mx-auto max-w-3xl px-6 py-12 sm:py-16">
+    <SectionHeading eyebrow="Timeline" title="News" />
+    <ul>
+      {news.map((item) => <NewsItem item={item} />)}
+    </ul>
+  </section>
+</Layout>
