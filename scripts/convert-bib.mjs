@@ -30,6 +30,7 @@ const FILE_META = {
 // Featured/carousel picks (by title substring) — kept in sync with the
 // ProjectCarousel featured selection described in the redesign plan.
 const SELECTED_TITLES = [
+  /Hybrid Human-AI Societies Balance Creativity and Diversity/i,
   /Trends and Visualization of Team Performance During Clutch Time/i,
   /Dynamics of Collective Creativity in Human-AI Hybrid Societies/i,
   /Mutual Adaptation of Large Language Models and Emergent Decision-Making/i,

@@ -58,7 +58,27 @@ export const publications: Publication[] = [
     links: {}
   },
   {
-    id: "shiiku2026hcii-23",
+    id: "shiiku2026hybrid-19",
+    title: "Hybrid Human-AI Societies Balance Creativity and Diversity",
+    authors: [
+      "Shota Shiiku",
+      "Raja Marjieh",
+      "Thomas L. Griffiths",
+      "Manuel Anglada-Tort",
+      "Nori Jacoby"
+    ],
+    venue: "Proceedings of the National Academy of Sciences (accepted)",
+    year: 2026,
+    category: "journal",
+    topics: [
+      "collective-behavior",
+      "llm"
+    ],
+    links: {},
+    selected: true
+  },
+  {
+    id: "shiiku2026hcii-24",
     title: "Trends and Visualization of Team Performance During Clutch Time in Japan's Professional B.League",
     authors: [
       "Shota Shiiku",
@@ -76,25 +96,6 @@ export const publications: Publication[] = [
     selected: true
   },
   {
-    id: "shiiku2026hybrid-26",
-    title: "Hybrid Human-AI Societies Balance Creativity and Diversity",
-    authors: [
-      "Shota Shiiku",
-      "Raja Marjieh",
-      "Thomas L. Griffiths",
-      "Manuel Anglada-Tort",
-      "Nori Jacoby"
-    ],
-    venue: "Under evaluation",
-    year: 2026,
-    category: "preprint",
-    topics: [
-      "collective-behavior",
-      "llm"
-    ],
-    links: {}
-  },
-  {
     id: "shiiku2026mb-27",
     title: "Collective Creativity in Human–AI Hybrid Societies",
     authors: [
@@ -103,7 +104,7 @@ export const publications: Publication[] = [
       "Manuel Anglada-Tort",
       "Nori Jacoby"
     ],
-    venue: "Machine+Behavior Conference 2026 ",
+    venue: "Machine+Behavior Conference 2026",
     year: 2026,
     category: "talk",
     topics: [
@@ -186,7 +187,7 @@ export const publications: Publication[] = [
     links: {}
   },
   {
-    id: "shiiku2025dynamics-19",
+    id: "shiiku2025dynamics-20",
     title: "Trends and Performance Visualization of Clutch Time in Japan's Professional B.League",
     authors: [
       "Shota Shiiku",
@@ -201,7 +202,7 @@ export const publications: Publication[] = [
     links: {}
   },
   {
-    id: "shiiku2025dynamics-20",
+    id: "shiiku2025dynamics-21",
     title: "The Dynamics of Collective Creativity in Human-AI Hybrid Societies",
     authors: [
       "Shota Shiiku",
@@ -220,7 +221,7 @@ export const publications: Publication[] = [
     selected: true
   },
   {
-    id: "shiiku2025jsftii-24",
+    id: "shiiku2025jsftii-25",
     title: "Leveraging Emergent Opinion Dynamics in Small-Group Decision-Making: A Simulation-Based Examination of Creativity and Satisfaction",
     authors: [
       "Shota Shiiku",
@@ -236,7 +237,7 @@ export const publications: Publication[] = [
     links: {}
   },
   {
-    id: "shiiku2025dynamicscollectivecreativityhumanai-25",
+    id: "shiiku2025dynamicscollectivecreativityhumanai-26",
     title: "The Dynamics of Collective Creativity in Human-AI Social Networks",
     authors: [
       "Shota Shiiku",
@@ -311,7 +312,7 @@ export const publications: Publication[] = [
     ],
     venue: "CogSci Meetup 2024 in Hamamatsu",
     year: 2024,
-    category: "talk",
+    category: "domestic",
     topics: [
       "decision-making"
     ],
@@ -352,7 +353,7 @@ export const publications: Publication[] = [
     }
   },
   {
-    id: "shii2023reinforcement-21",
+    id: "shii2023reinforcement-22",
     title: "Exploring the Mutual Adaptation of Large Language Models and Emergent Decision-Making in Simulated Small Group Interactions",
     authors: [
       "Shota Shiiku",
@@ -371,7 +372,7 @@ export const publications: Publication[] = [
     selected: true
   },
   {
-    id: "shii2023reinforcement-22",
+    id: "shii2023reinforcement-23",
     title: "Reducing Discomfort by Integrating Unpleasant Environmental Sounds with Cognitive Sound Control",
     authors: [
       "Shota Shiiku",
@@ -396,7 +397,7 @@ export const publications: Publication[] = [
     ],
     venue: "認知的コミュニケーションワークショップ2024",
     year: 2024,
-    category: "talk",
+    category: "workshop",
     topics: [
       "llm",
       "decision-making"
@@ -470,7 +471,7 @@ export const publications: Publication[] = [
     ],
     venue: "認知的コミュニケーションワークショップ2023",
     year: 2023,
-    category: "talk",
+    category: "workshop",
     topics: [
       "decision-making",
       "llm"
@@ -518,7 +519,7 @@ export const publications: Publication[] = [
     ],
     venue: "認知的コミュニケーションワークショップ2022",
     year: 2022,
-    category: "talk",
+    category: "workshop",
     topics: [
       "decision-making",
       "llm"

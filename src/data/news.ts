@@ -7,6 +7,16 @@ export interface NewsItem {
 // Migrated from the 16 legacy _news/announcement_*.md files, newest first.
 export const news: NewsItem[] = [
   {
+    date: "2026-11-05",
+    body: "Received the JSAI Annual Conference Award for the oral presentation 「人とAIの共創社会における集団的創造性」 (Collective Creativity in Human–AI Co-Creative Societies) at JSAI 2026.",
+    link: { text: "JSAI 2026", url: "https://www.ai-gakkai.or.jp/jsai2026/" }
+  },
+  {
+    date: "2026-10-26",
+    body: 'Paper "Hybrid Human-AI Societies Balance Creativity and Diversity" is accepted by PNAS.',
+    link: { text: "PNAS", url: "https://www.pnas.org/" }
+  },
+  {
     date: "2025-09-14",
     body: 'Oral presentation at 15th International Symposium on Computer Science in Sport (IACSS 2025). The title is "Trends and Performance Visualization of Clutch Time in Japan\'s Professional B.League".',
     link: { text: "IACSS 2025", url: "https://iacssconference.org/#/2025" }
