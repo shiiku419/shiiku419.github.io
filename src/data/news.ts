@@ -28,7 +28,7 @@ export const news: NewsItem[] = [
   },
   {
     date: "2025-04-06",
-    body: 'Paper "The Dynamics of Collective Creativity in Human-AI Social Networks" is accepted by CogSci 2025.',
+    body: 'Paper "The Dynamics of Collective Creativity in Human-AI Social Networks" has been accepted at CogSci 2025.',
     link: { text: "CogSci 2025", url: "https://cognitivesciencesociety.org/cogsci-2025/" }
   },
   {
@@ -62,7 +62,7 @@ export const news: NewsItem[] = [
   },
   {
     date: "2024-07-26",
-    body: 'Paper "Exploring the Mutual Adaptation of Large Language Models and Emergent Decision-Making in Simulated Small Group Interactions" is accepted by HAI 2024.',
+    body: 'Paper "Exploring the Mutual Adaptation of Large Language Models and Emergent Decision-Making in Simulated Small Group Interactions" has been accepted at HAI 2024.',
     link: { text: "HAI 2024", url: "https://hai-conference.net/hai2024/" }
   },
   {
@@ -80,7 +80,7 @@ export const news: NewsItem[] = [
   },
   {
     date: "2024-04-28",
-    body: 'Paper "Reducing Discomfort by Integrating Unpleasant Environmental Sounds with Cognitive Sound Control" is accepted by Inter-Noise 2024.',
+    body: 'Paper "Reducing Discomfort by Integrating Unpleasant Environmental Sounds with Cognitive Sound Control" has been accepted at Inter-Noise 2024.',
     link: { text: "Inter-Noise 2024", url: "https://internoise2024.org/" }
   },
   {
